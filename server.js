@@ -5,7 +5,7 @@ const port = 8080;   //사용할 포트 번호
 const path = require('path');  //파일 경로 결합을 위한 모듈
 
 
-const apiKey = 'y65YbTy2VCUoNP9s7Y3hMluiS04o2v/iLa67rruM7n9QA9y1G8e7iPY7uN49OwjWoJaHbaCZX1rLR4MptavFsg==';
+const apiKey = 'api 키';
 const apiUrl = `http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?stationName=종로구&dataTerm=month&pageNo=1&numOfRows=100&returnType=json&serviceKey=${apiKey}&ver=1.1`;
 
 async function getData() {   // Open API에서 데이터 가져올 함수 
